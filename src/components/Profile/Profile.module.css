@@ -1,4 +1,4 @@
-.card{
+.card {
     border: 5px solid black;
     border-radius: 15px;
     width: 500px;
@@ -7,8 +7,8 @@
     flex-direction: column;
     gap: 20px;
     justify-content: space-between;
-    padding-top: 20px;
-    overflow: hidden;
+    /* padding-top: 20px;
+    overflow: hidden; */
 }
 
 .image {
@@ -21,9 +21,11 @@
 }
 
 .pic {
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
-
+/*
 .list {
     display: flex;
     flex-direction: row;
@@ -70,4 +72,4 @@
 
 .statistic {
     font-weight: 600;
-}
+} */

@@ -12,7 +12,7 @@ export default function Profile({
                     alt="User avatar"
                 />
                 <p className={css.username}>{username}</p>
-                <p className={css.usertag}>{tag}</p>
+                <p className={css.usertag}>@{tag}</p>
                 <p className={css.userlocation}>{location}</p>
             </div>
 
@@ -27,7 +27,7 @@ export default function Profile({
                 </li>
                 <li className={css.item}>
                     <span>Likes</span>
-                    <span className={css.statistic}>{stats.likes}</span>
+                    <span className={css.statistic}>{stats.like}</span>
                 </li>
             </ul>
         </div>
